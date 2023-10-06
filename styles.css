@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+.div_container:hover{
+    transform: scale(1.1);
+    transition: transform .5s ease;
+}
+.div_container{
+    margin: auto;
+    margin-top: 50px;
+    height: 600px;
+    width: 350px;    
+    background-color: white;
+    border-radius: 20px;
+}
+
+.header{
+    border-radius: 20px;
+    width: 350px;
+    height: 200px;
+}
+
+.newyork_img{
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.top{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(231, 124, 18);
+}
+
+.mid{
+  display: flex;
+  justify-content: center;
+}
+    
+.bottom{
+    
+    text-align: center;
+    line-height: 20px;
+    padding: 10px 20px 0px;
+    font-size: 15px;
+    color: gray;
+    
+}
+
+.main-f{
+    display: flex;
+    justify-content: space-around;
+    background-color: orangered;
+    height: 60px;
+    margin-top: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 20px;
+    color: white;
+    font-size: 10px;
+    
+
+}
